@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Allura&family=Days+One&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/afd6aa68df.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+        <section class="search-wrapper"> 
+            <h1>ATLish Drinks</h1> <!--label-->
+			<p>Type in a drink name -- click on it -- and Get Drink!</p>
+            <input type="search" name="" value="" class="searchBar" data-search>
+            <button class="button">Get Drink!</button>
+
+        <div class="drink-cards" data-drink-cards-container></div>
+
+        <template data-drink-template>
+            <ul class="card">
+                    <li class="drinks" data-drink-name></li>
+            </ul>
+        </template>
+
+        </section>
+        
+        <section class="container">
+            <img src="" alt="" id="image">
+            <h2 id="name"></h2>
+
+            <div class="media-query" data-media-query>
+                <h3 id="ingredients"></h3>
+                <h3 id="instructions"></h3>
+            </div>
+           
+        </section>
+		
+
+		
+
+		<script type="text/javascript" src="main.js"></script>
+      
+	</body>
